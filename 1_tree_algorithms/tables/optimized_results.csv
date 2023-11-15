@@ -1,0 +1,14 @@
+This is the accuracy for the optimized decision tree
+0.9622
+
+These are the confusion matrix values. True labels along y-axis and predicted labels along x-axis
+,0,1,2
+0,17366,425,30
+1,667,5058,0
+2,12,0,6442
+
+These are the 1. precision 2. recall and 3. f1 scores
+,0,1,2,micro-average
+precision,0.9623718481573843,0.9224876892212293,0.9953646477132262,0.9622
+recall,0.9744683238875484,0.8834934497816593,0.9981406879454602,0.9622
+f1,0.9683823119388837,0.9025695931477515,0.9967507349528082,0.9622

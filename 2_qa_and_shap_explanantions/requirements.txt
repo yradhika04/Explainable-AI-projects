@@ -1,0 +1,14 @@
+datasets
+transformers
+accelerate -U
+evaluate
+shap
+numpy 
+torch
+google.colab
+tqdm
+random
+matplotlib.pyplot 
+seaborn 
+pandas 
+huggingface_hub

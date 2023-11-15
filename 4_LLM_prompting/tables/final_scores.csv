@@ -1,0 +1,18 @@
+This is the METEOR score for the answers
+{'meteor': 0.3142704625656571}
+
+This is the METEOR score for the explanations
+{'meteor': 0.3135916142173732}
+
+This is the sacrebleu score for the answers
+{'score': 2.7271693613016064, 'counts': [61, 8, 0, 0], 'totals': [235, 135, 79, 44], 'precisions': [25.95744680851064, 5.925925925925926, 0.6329113924050633, 0.5681818181818182], 'bp': 1.0, 'sys_len': 235, 'ref_len': 145}
+
+This is the sacrebleu score for the explanations
+{'score': 8.17806323353908, 'counts': [550, 146, 50, 15], 'totals': [1233, 1133, 1033, 933], 'precisions': [44.6066504460665, 12.886142983230362, 4.84027105517909, 1.607717041800643], 'bp': 1.0, 'sys_len': 1233, 'ref_len': 1093}
+
+This is the inter-annotator agreement score for the goodness (The explanation is satisfying)
+0.6347402597402598
+
+This is the inter-annotator agreement score for the satisfaction (The explanation is satisfying)
+0.2715398141170561
+

@@ -1,0 +1,48 @@
+These are losses per epoch for training and validation
+[{'eval_loss': 0.8940712809562683, 'eval_runtime': 60.109, 'eval_samples_per_second': 40.493, 'eval_steps_per_second': 2.545, 'epoch': 1.0, 'step': 355}, {'loss': 0.931, 'learning_rate': 1.0610328638497653e-05, 'epoch': 1.41, 'step': 500}, {'eval_loss': 0.9767690300941467, 'eval_runtime': 60.2615, 'eval_samples_per_second': 40.391, 'eval_steps_per_second': 2.539, 'epoch': 2.0, 'step': 710}, {'loss': 0.4794, 'learning_rate': 1.2206572769953053e-06, 'epoch': 2.82, 'step': 1000}, {'eval_loss': 1.1014118194580078, 'eval_runtime': 60.1433, 'eval_samples_per_second': 40.47, 'eval_steps_per_second': 2.544, 'epoch': 3.0, 'step': 1065}, {'train_runtime': 1431.7909, 'train_samples_per_second': 11.899, 'train_steps_per_second': 0.744, 'total_flos': 3338784633383424.0, 'train_loss': 0.6856932393821752, 'epoch': 3.0, 'step': 1065}]
+
+This is the overall evaluation loss on validation set
+{'eval_loss': 1.1014118194580078, 'eval_runtime': 56.4072, 'eval_samples_per_second': 43.151, 'eval_steps_per_second': 2.712, 'epoch': 3.0}
+
+This is the model evaluation info
+BertForQuestionAnswering(
+  (bert): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(28996, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+  )
+  (qa_outputs): Linear(in_features=768, out_features=2, bias=True)
+)
+

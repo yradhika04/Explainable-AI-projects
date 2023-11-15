@@ -1,0 +1,11 @@
+These are the exact-match and f1 scores for the test data
+{'exact_match': 58.843830888697156, 'f1': 71.81054535760816}
+
+This is the meteor score for the test data
+{'meteor': 0.5573724230750389}
+
+These are the bleu scores for the test data
+{'bleu': 0.3728609642758787, 'precisions': [0.5, 0.4017310849126996, 0.3363930885529158, 0.28604553119730186], 'brevity_penalty': 1.0, 'length_ratio': 1.3991337664501082, 'translation_length': 16798, 'reference_length': 12006}
+
+This is the google-bleu score for the test data
+{'google_bleu': 0.34381690284432664}

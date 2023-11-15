@@ -1,0 +1,9 @@
+This is the accuracy score for just the text features
+0.7946577629382304
+
+This is the accuracy score for just the image features
+0.8881469115191987
+
+This is the accuracy score for both text + image features
+0.8981636060100167
+

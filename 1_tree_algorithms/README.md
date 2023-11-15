@@ -16,19 +16,19 @@ The dataset is formed of 100,000 rows and 18 columns, 17 represent a feature (ob
 
 
 ## General Organization
-1) **Tables Folder:**  
+1) **tables folder:**  
 Includes the result tables (accuracy, f1-score, recall, precision). <br>
 
-2) **Figures Folder:** 
+2) **figures folder:** 
 Includes the visualizations (confusion matrix, feature importance, decision trees, and correctly and incorrectly classified examples).<br>
 
-3) **Code Folder:** <br>
+3) **code Folder:** <br>
 Includes the data exploration and the models. <br>
 
-    * 3.1)**Data exploration:** <br>
+    * 3.1)**data_exploration:** <br>
         Notebook for data exploration and division of the original dataset into training and testing datasets.<br> 
 
-    * 3.2)**StarFinal:** <br>
+    * 3.2)**stars_classification:** <br>
         Includes the implementation of all the decision tree models and their optimizations. <br>
 
 4) **Requirements.txt:** includes all the requirements for running the code successfully. 

@@ -7,5 +7,5 @@ This project contains four mini-projects, each of which deals with different typ
 Each of the four projects is described in detail in its respective folder. The project report contains all methodologies, overall results, individual sample analysis, and discussions. 
 
 # Authors
-Radhika Yadav
+Radhika Yadav\
 Valentina Tretti

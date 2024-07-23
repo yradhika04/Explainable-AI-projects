@@ -19,8 +19,8 @@ Use a multimodal dataset (image-text),  extract features: visual and textual fro
 # Models
 
 **Feature Extraction:**
-* Visual features: A fine-tuned version of DeBERTa (clothing_subcategory_classifier)<br>
-* Textual features: A fine-tuned Vision Transformer (ViT) model (vit-base-clothing-leafs-example-full-simple_highres)<br>
+* Visual features: A fine-tuned Vision Transformer (ViT) model (vit-base-clothing-leafs-example-full-simple_highres)<br>
+* Textual features: A fine-tuned version of DeBERTa (clothing_subcategory_classifier)<br>
 
 
 **Classification task:**
